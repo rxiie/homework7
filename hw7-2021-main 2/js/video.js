@@ -1,4 +1,4 @@
-var video = document.querySelector("#player1");
+var video = document.getElementById("player1");
 
 window.addEventListener("load", function() {
 	console.log("Good job opening the window")
@@ -70,7 +70,3 @@ document.querySelector("#orig").addEventListener("click", function() {
 	video.classList.remove("OldSchool");
 });
 
-// document.getElementById("slower").addEventListener("click", function() {
-// 	console.log("Slow Down");
-// 	document.getElementById(video).playbackRate = -0.05;
-// });
